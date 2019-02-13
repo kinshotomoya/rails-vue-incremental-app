@@ -1,0 +1,22 @@
+<div id="header">
+  <header-template></header-template>
+</div>
+
+<div id="content">
+  <%# .preventでhttp通信が行われないようにする %>
+  <form v-on:submit.prevent='addMember'>
+    Search member <input name="query" v-model='addQuery'>  <%##%>
+    <button>Add member</button>
+  </form>
+  <member-tag
+    v-for='item in list'
+    v-bind:member-data='item'
+    v-bind:key='item.id'
+    v-bind:class="(item.name.indexOf(searchedName) != -1 || searchedName == null) ? 'searched' : 'unsearched'"
+  >
+  </member-tag>
+</div>
+
+<div id="foot">
+  <foot-template></foot-template>
+</div>

@@ -1,0 +1,15 @@
+current directory: /Users/jinzhengpengye/work_space/rails-vue-app/vendor/bundle/gems/bootsnap-1.4.0/ext/bootsnap
+/Users/jinzhengpengye/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20190212-6355-jh30tz.rb extconf.rb
+creating Makefile
+
+current directory: /Users/jinzhengpengye/work_space/rails-vue-app/vendor/bundle/gems/bootsnap-1.4.0/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/jinzhengpengye/work_space/rails-vue-app/vendor/bundle/gems/bootsnap-1.4.0/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/jinzhengpengye/work_space/rails-vue-app/vendor/bundle/gems/bootsnap-1.4.0/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20190212-6355-1of99g7/bootsnap
