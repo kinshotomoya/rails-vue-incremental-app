@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import MemberTag from './content.vue'
+import MemberTag from '../components/content.vue'
 import lodash from 'lodash'
 
 var data = [

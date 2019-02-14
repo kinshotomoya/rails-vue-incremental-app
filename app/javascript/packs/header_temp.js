@@ -1,6 +1,6 @@
 // header用のjsファイル
 import Vue from 'vue'
-import HeaderTemplate from './header.vue'  // HeaderTemplateは、<header-template></header-template>のキャメルケースにしないといけない
+import HeaderTemplate from '../components/header.vue'  // HeaderTemplateは、<header-template></header-template>のキャメルケースにしないといけない
 
 
 new Vue({
