@@ -2,16 +2,11 @@ import Vue from 'vue'
 import MemberTag from '../components/content.vue'
 import lodash from 'lodash'
 
-var data = [
-    { name: '山田', age: '30歳' },
-    { name: '田中', age: '29歳' },
-    { name: '鈴木', age: '25歳' }
-  ];
 
 new Vue({
   el: '#content',
   data: {
-    list: data,
+    list: members.list,
     addQuery: '',  // 空を定義する。inputのv-modelのaddQueryと紐づいている
     searchedName: null
   },
